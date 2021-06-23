@@ -1,0 +1,18 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist",  "dist.browser"],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "declaration": true,
+    "noImplicitAny": true,
+    "module": "CommonJS",
+    "target": "ES5",
+    "jsx": "react",
+    "allowJs": false,
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "declarationMap": true
+  }
+}

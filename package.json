@@ -1,0 +1,23 @@
+{
+  "name": "@chrisfieldsii/utils",
+  "description": "Utilities that may or may not be utilized",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": false,
+  "author": {
+    "name": "Chris Fields II",
+    "email": "chrisjr06@gmail.com"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "yarn build --watch"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {}
+}
