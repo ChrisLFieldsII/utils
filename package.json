@@ -1,7 +1,7 @@
 {
   "name": "@chrisfieldsii/utils",
   "description": "Utilities that may or may not be utilized",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,7 +17,6 @@
     "build": "tsc",
     "watch": "yarn build --watch"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {}
 }
